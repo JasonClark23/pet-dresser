@@ -29,6 +29,12 @@ public class changeParts : MonoBehaviour {
     public int spriteCountMaxMouth;
     private int spriteCountMouth;
 
+// Head Setup
+    SpriteRenderer srHead;
+    public Sprite[] newSpriteHead;
+    public int spriteCountMaxHead;
+    private int spriteCountHead;
+
     private void Awake() // Initializes spritesheets in resources folder at game startup
     {
 //Ears
@@ -42,6 +48,9 @@ public class changeParts : MonoBehaviour {
 
 //Mouth
     newSpriteMouth = Resources.LoadAll<Sprite>("layoutGridMouth");
+
+//Head
+    newSpriteHead = Resources.LoadAll<Sprite>("layoutGridHead");
 
 
     } //Don't copy
@@ -63,6 +72,10 @@ private void Start() // Initializes everything when script is first used
 //Mouth
     spriteCountMouth = 0;
     srMouth = GameObject.Find("Mouth").GetComponent<SpriteRenderer>();
+
+//Head
+    spriteCountHead = 0;
+    srHead = GameObject.Find("Head").GetComponent<SpriteRenderer>();
 
 
 } //Don't copy
@@ -209,6 +222,41 @@ private void Start() // Initializes everything when script is first used
         Debug.Log(newSpriteMouth[spriteCountMouth]);
 
         srMouth.sprite = newSpriteMouth[spriteCountMouth];
+    }
+
+// Head Change Control
+    public void HeadForward()
+    {
+        Debug.Log("Moving Head Forward");
+        if (spriteCountHead < spriteCountMaxHead)
+        {
+            spriteCountHead++;
+        }
+        else
+        {
+            spriteCountHead = 0;
+        }
+
+        Debug.Log(newSpriteHead[spriteCountHead]);
+
+        srHead.sprite = newSpriteHead[spriteCountHead];
+    }
+
+    public void HeadReverse()
+    {
+        Debug.Log("Moving Head Reverse");
+        if (spriteCountHead > 0)
+        {
+            spriteCountHead--;
+        }
+        else
+        {
+            spriteCountHead = spriteCountMaxHead;
+        }
+
+        Debug.Log(newSpriteHead[spriteCountHead]);
+
+        srHead.sprite = newSpriteHead[spriteCountHead];
     }
 
 } // Don't copy!
