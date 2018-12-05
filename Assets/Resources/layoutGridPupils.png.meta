@@ -1,13 +1,12 @@
 fileFormatVersion: 2
-guid: 7f1de4abe37e5ae4d8abebded7198376
+guid: 52735527b89bfe74690239586619be49
 TextureImporter:
   fileIDToRecycleName:
-    21300000: layoutGridEyes_0
-    21300002: layoutGridEyes_1
-    21300004: layoutGridEyes_2
-    21300006: layoutGridEyes_3
-    21300008: layoutGridEyes_4
-    21300010: layoutGridEyes_5
+    21300000: layoutGridPupils_0
+    21300002: layoutGridPupils_1
+    21300004: layoutGridPupils_2
+    21300006: layoutGridPupils_3
+    21300008: layoutGridPupils_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -90,7 +89,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: layoutGridEyes_0
+      name: layoutGridPupils_0
       rect:
         serializedVersion: 2
         x: 0
@@ -98,19 +97,19 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39cc874fe31085e45b8f6c6bc2ffe3b0
+      spriteID: e2a784d266bcee44abcb857d8a18cac6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: layoutGridEyes_1
+      name: layoutGridPupils_1
       rect:
         serializedVersion: 2
         x: 128
@@ -118,19 +117,19 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1bccdb4d7d8e5e43bd11fdd4222a793
+      spriteID: f3932bc8d8efe4b40b38dc5f14db4689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: layoutGridEyes_2
+      name: layoutGridPupils_2
       rect:
         serializedVersion: 2
         x: 256
@@ -138,19 +137,19 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dda415844332c7e4d859e39d57c6f2b0
+      spriteID: 95bfda9a3588b8244ac86b464b76baa2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: layoutGridEyes_3
+      name: layoutGridPupils_3
       rect:
         serializedVersion: 2
         x: 0
@@ -158,13 +157,33 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 057ead2fb74141b4d94f3aa1419ce14f
+      spriteID: 7f9f34938a4905a499dba78f7647f939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: layoutGridPupils_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd02c4fde5d9c946b930cef6e282ac7
       vertices: []
       indices: 
       edges: []
@@ -172,7 +191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 837df80c353f6ee458100492c177c763
+    spriteID: 37cd76fdcfe2bdf4bb50fd153e595be5
     vertices: []
     indices: 
     edges: []

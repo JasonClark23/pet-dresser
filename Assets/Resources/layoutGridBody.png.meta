@@ -1,13 +1,11 @@
 fileFormatVersion: 2
-guid: 7f1de4abe37e5ae4d8abebded7198376
+guid: 409a9dc1be6836240afe29135561f895
 TextureImporter:
   fileIDToRecycleName:
-    21300000: layoutGridEyes_0
-    21300002: layoutGridEyes_1
-    21300004: layoutGridEyes_2
-    21300006: layoutGridEyes_3
-    21300008: layoutGridEyes_4
-    21300010: layoutGridEyes_5
+    21300000: layoutGridBody_0
+    21300002: layoutGridBody_1
+    21300004: layoutGridBody_2
+    21300006: layoutGridBody_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -90,81 +88,81 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: layoutGridEyes_0
+      name: layoutGridBody_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
+        y: 224
         width: 128
-        height: 128
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39cc874fe31085e45b8f6c6bc2ffe3b0
+      spriteID: 0dfad059b714e864ba204b11e2337aa1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: layoutGridEyes_1
+      name: layoutGridBody_1
       rect:
         serializedVersion: 2
         x: 128
-        y: 256
+        y: 224
         width: 128
-        height: 128
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1bccdb4d7d8e5e43bd11fdd4222a793
+      spriteID: 682e6a5bcb9a57b4ab871e56686d1da7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: layoutGridEyes_2
+      name: layoutGridBody_2
       rect:
         serializedVersion: 2
         x: 256
-        y: 256
+        y: 224
         width: 128
-        height: 128
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dda415844332c7e4d859e39d57c6f2b0
+      spriteID: 36a030adf8f98104699688105b08f165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: layoutGridEyes_3
+      name: layoutGridBody_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 64
         width: 128
-        height: 128
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 057ead2fb74141b4d94f3aa1419ce14f
+      spriteID: 7da52e27571d81c4da3992f999fe2cdf
       vertices: []
       indices: 
       edges: []
@@ -172,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 837df80c353f6ee458100492c177c763
+    spriteID: d5615cc23073eeb4693ff634f894082c
     vertices: []
     indices: 
     edges: []
