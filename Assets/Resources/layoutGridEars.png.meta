@@ -6,6 +6,7 @@ TextureImporter:
     21300002: layoutGridEars_1
     21300004: layoutGridEars_2
     21300006: layoutGridEars_3
+    21300008: layoutGridEars_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -96,13 +97,13 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ab06b056430b554eb8a0964612f2d2f
+      spriteID: ed7542cbdb23fec4f89931d04ccc3839
       vertices: []
       indices: 
       edges: []
@@ -116,13 +117,13 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 358766687342a9844ae0cf880c043cd8
+      spriteID: a0d176f3d88ebaa439828846d56bf7c9
       vertices: []
       indices: 
       edges: []
@@ -136,13 +137,13 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ca4f2df9cef22d42aaf1e00193ed3bd
+      spriteID: 112462f5669b8fc4e8646b2b3d521fda
       vertices: []
       indices: 
       edges: []
@@ -156,13 +157,33 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7725430abd7053048a8b9776d0269761
+      spriteID: b746cdafb92101947b1292d351b19b2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: layoutGridEars_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f159bdba7f3862478832b00037a7888
       vertices: []
       indices: 
       edges: []
